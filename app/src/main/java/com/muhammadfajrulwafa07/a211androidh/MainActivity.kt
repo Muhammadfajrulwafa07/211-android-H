@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
 
             jarak = jarak * 1000
 
-            Toast.makeText(this,"hai ",Toast.LENGTH_SHORT).show()
+            Toast.makeText(this,"hai $jarak",Toast.LENGTH_SHORT).show()
         }
 
         batalButton.setOnClickListener {
